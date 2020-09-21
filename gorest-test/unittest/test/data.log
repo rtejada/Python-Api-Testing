@@ -1,0 +1,1088 @@
+09/19/2020 12:01:40 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 12:01:42 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 12:03:08 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 12:03:09 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 12:03:41 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f2bdcd13880>
+09/19/2020 12:04:37 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 12:04:39 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 12:05:19 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 12:05:20 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 12:20:19 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 12:20:20 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 12:20:39 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 12:20:40 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 12:21:32 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 12:21:33 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 12:27:18 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 12:27:20 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 12:28:54 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f020414cdf0>
+09/19/2020 12:29:14 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f020414c850>
+09/19/2020 12:29:20 PM: DEBUG [query_dao.py:34] INSERT INTO persons(id_user, name, email, gender, status, date) VALUES(%s,%s,%s,%s,%s,%s)
+09/19/2020 12:29:42 PM: ERROR [query_dao.py:44] Exception to insert person: 'Persons' object has no attribute '_Persons__id_person'
+09/19/2020 12:29:55 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 12:29:56 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 12:29:56 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f9f43134910>
+09/19/2020 12:29:56 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f9f43134a60>
+09/19/2020 12:29:56 PM: DEBUG [query_dao.py:34] INSERT INTO persons(id_user, name, email, gender, status, date) VALUES(%s,%s,%s,%s,%s,%s)
+09/19/2020 12:29:56 PM: ERROR [query_dao.py:44] Exception to insert person: 'Persons' object has no attribute '_Persons__id_person'
+09/19/2020 12:29:56 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 12:29:56 PM: DEBUG [post_users.py:49] Persons Inserted: None
+09/19/2020 12:55:21 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 12:55:22 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 12:55:22 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f869b37d790>
+09/19/2020 12:55:22 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f869b37da00>
+09/19/2020 12:55:22 PM: DEBUG [query_dao.py:34] INSERT INTO persons(id_user, name, email, gender, status, date) VALUES(%s,%s,%s,%s,%s,%s)
+09/19/2020 12:55:22 PM: DEBUG [query_dao.py:35] Person to insert: id_person: None, id: 1910, name: fJzKfvwrIwIn, email: lb8574si@vyo76v21.es, gender: Female, status: Active, date: 2020-9-19
+09/19/2020 12:55:22 PM: ERROR [query_dao.py:44] Exception to insert person: 'Persons' object has no attribute 'id_user'
+09/19/2020 12:55:22 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 12:55:22 PM: DEBUG [post_users.py:49] Persons Inserted: None
+09/19/2020 12:57:39 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 12:57:40 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 12:57:40 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fdc1564a790>
+09/19/2020 12:57:40 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fdc1564aa00>
+09/19/2020 12:57:40 PM: DEBUG [query_dao.py:34] INSERT INTO persons(id_user, name, email, gender, status, date) VALUES(%s,%s,%s,%s,%s,%s)
+09/19/2020 12:57:40 PM: DEBUG [query_dao.py:35] Person to insert: id_person: None, id: 1911, name: PfNMhGEWbQOK, email: twllj7hu@88zg18ao.es, gender: Female, status: Active, date: 2020-9-19
+09/19/2020 12:57:40 PM: ERROR [query_dao.py:44] Exception to insert person: 'Persons' object has no attribute 'id_user'
+09/19/2020 12:57:40 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 12:57:40 PM: DEBUG [post_users.py:49] Persons Inserted: None
+09/19/2020 01:01:11 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 01:01:12 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 01:01:12 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fbbd3531940>
+09/19/2020 01:01:12 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fbbd35316d0>
+09/19/2020 01:01:12 PM: DEBUG [query_dao.py:34] INSERT INTO persons(id_user, name, email, gender, status, date) VALUES(%s,%s,%s,%s,%s,%s)
+09/19/2020 01:01:12 PM: DEBUG [query_dao.py:35] Person to insert: id_person: None, id: 1913, name: zExbHFneXJSr, email: j9y69b4c@vc0i0871.es, gender: Female, status: Active, date: 2020-9-19
+09/19/2020 01:03:32 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 01:03:33 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 01:03:33 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fab200a9940>
+09/19/2020 01:03:33 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fab200a96d0>
+09/19/2020 01:03:33 PM: DEBUG [query_dao.py:34] INSERT INTO persons(id_user, name, email, gender, status, date) VALUES(%s,%s,%s,%s,%s,%s)
+09/19/2020 01:03:33 PM: DEBUG [query_dao.py:35] Person to insert: id_person: None, id: 1914, name: OVpiqKSBiUMe, email: j5bv21p1@17slmrro.es, gender: Female, status: Active, date: 2020-9-19
+09/19/2020 01:04:55 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 01:06:33 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 01:06:35 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 01:06:35 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f2849dc5820>
+09/19/2020 01:06:35 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f2849dc5a90>
+09/19/2020 01:06:35 PM: DEBUG [query_dao.py:34] INSERT INTO persons(id_user, name, email, gender, status, date) VALUES(%s,%s,%s,%s,%s,%s)
+09/19/2020 01:06:35 PM: DEBUG [query_dao.py:35] Person to insert: id_person: None, id: 1916, name: ODpZbJgwyAXY, email: crtb6igb@6kxoy1hy.es, gender: Female, status: Active, date: 2020-9-19
+09/19/2020 01:06:35 PM: ERROR [query_dao.py:44] Exception to insert person: 'Persons' object has no attribute 'status'
+09/19/2020 01:06:35 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 01:06:35 PM: DEBUG [post_users.py:49] Persons Inserted: None
+09/19/2020 01:11:06 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 01:11:18 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 01:11:19 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 01:11:19 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f2be3012d90>
+09/19/2020 01:11:19 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f2be3012f10>
+09/19/2020 01:11:19 PM: DEBUG [query_dao.py:34] INSERT INTO persons(id_user, name, email, gender, status, date) VALUES(%s,%s,%s,%s,%s,%s)
+09/19/2020 01:11:19 PM: DEBUG [query_dao.py:35] Person to insert: id_post: None, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-9-19
+09/19/2020 01:11:19 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 01:11:19 PM: DEBUG [post_users.py:49] Persons Inserted: 1
+09/19/2020 02:45:44 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f1ddc9f1910>
+09/19/2020 02:45:44 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f1dddc2dc70>
+09/19/2020 02:45:44 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 02:45:44 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 02:45:44 PM: ERROR [connect_URL.py:26] error when connecting to the DB: type object 'ConnectionInfo' has no attribute '_ConnectionInfo__header'
+09/19/2020 02:47:56 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f8aafc2a940>
+09/19/2020 02:47:56 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f8ab0e66d00>
+09/19/2020 02:47:56 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 02:47:56 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 02:47:56 PM: ERROR [connect_URL.py:26] error when connecting to the DB: type object 'ConnectionInfo' has no attribute '_ConnectionInfo__header'
+09/19/2020 02:49:26 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7ff2eab86940>
+09/19/2020 02:49:26 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7ff2ebdc2d00>
+09/19/2020 02:49:26 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 02:49:26 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 02:49:51 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f0f6b153940>
+09/19/2020 02:49:51 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f0f6c38ed00>
+09/19/2020 02:49:51 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 02:49:51 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 02:49:51 PM: DEBUG [connect_URL.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 02:49:51 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 02:49:53 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 02:52:45 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7ff3dc662100>
+09/19/2020 02:52:45 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7ff3de03cc40>
+09/19/2020 02:52:45 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 02:52:45 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 02:52:45 PM: DEBUG [connect_URL.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 02:52:45 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 02:52:46 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 02:53:23 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f8b09fbc100>
+09/19/2020 02:53:23 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f8b0c199be0>
+09/19/2020 02:53:23 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 02:53:23 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 02:53:23 PM: DEBUG [connect_URL.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 02:53:23 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 02:53:25 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 02:54:14 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f72a24d2100>
+09/19/2020 02:54:14 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f72a4671be0>
+09/19/2020 02:54:14 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 02:54:14 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 02:54:14 PM: DEBUG [connect_URL.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 02:54:14 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 02:54:15 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 02:56:40 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f1872407130>
+09/19/2020 02:56:40 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f18745a0cd0>
+09/19/2020 02:56:40 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 02:56:40 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 02:56:40 PM: DEBUG [connect_URL.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 02:56:40 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 02:56:41 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 02:57:37 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fa30e7e4dc0>
+09/19/2020 02:57:37 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fa30e7e4cd0>
+09/19/2020 02:57:37 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 02:57:37 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 02:59:11 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fd0674a7dc0>
+09/19/2020 02:59:11 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fd0674a7cd0>
+09/19/2020 02:59:11 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 02:59:11 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 03:00:18 PM: DEBUG [connect_URL.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 03:00:18 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 03:00:20 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 03:00:56 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f1ebc052100>
+09/19/2020 03:00:56 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f1ebca4ec40>
+09/19/2020 03:00:56 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 03:00:56 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 03:00:56 PM: DEBUG [connect_URL.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 03:00:56 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 03:00:57 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 03:01:25 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7ff8f636c100>
+09/19/2020 03:01:25 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7ff8f854bbe0>
+09/19/2020 03:01:25 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 03:01:25 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 03:01:25 PM: DEBUG [connect_URL.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 03:01:25 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 03:01:27 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 03:01:34 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f5ae6d4a100>
+09/19/2020 03:01:34 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f5ae8f25c40>
+09/19/2020 03:01:34 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 03:01:34 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 03:01:34 PM: DEBUG [connect_URL.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 03:01:34 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 03:01:35 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 03:01:44 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7ff560d63100>
+09/19/2020 03:01:44 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7ff562762c40>
+09/19/2020 03:01:44 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 03:01:44 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 03:01:44 PM: DEBUG [connect_URL.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 03:01:44 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 03:01:46 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 03:01:55 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f8490807100>
+09/19/2020 03:01:55 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f84929a3c40>
+09/19/2020 03:01:55 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 03:01:55 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 03:01:55 PM: DEBUG [connect_URL.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 03:01:55 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 03:01:56 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 05:56:58 PM: DEBUG [connect_URL.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 05:56:58 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 05:57:00 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 05:57:00 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f30fc0e1550>
+09/19/2020 05:57:00 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f30fc0e1a60>
+09/19/2020 05:57:00 PM: DEBUG [query_dao.py:18] SELECT * FROM persons ORDER BY id_user
+09/19/2020 05:57:00 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 05:57:00 PM: DEBUG [data_generator.py:50] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 05:57:00 PM: DEBUG [data_generator.py:50] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 05:58:19 PM: DEBUG [connect_URL.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 05:58:19 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 05:58:20 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 05:58:20 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fdd272f1970>
+09/19/2020 05:58:20 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fdd272f18e0>
+09/19/2020 05:58:20 PM: DEBUG [query_dao.py:18] SELECT * FROM persons ORDER BY id_user
+09/19/2020 05:58:20 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 05:58:20 PM: DEBUG [data_generator.py:50] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 05:58:20 PM: DEBUG [data_generator.py:50] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 06:00:48 PM: DEBUG [connect_URL.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 06:00:48 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 06:00:49 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 06:00:49 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fc60a2f3970>
+09/19/2020 06:00:49 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fc60a2f38e0>
+09/19/2020 06:00:49 PM: DEBUG [query_dao.py:18] SELECT * FROM persons ORDER BY id_user
+09/19/2020 06:00:49 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 06:00:49 PM: DEBUG [data_generator.py:50] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 06:00:49 PM: DEBUG [data_generator.py:50] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 06:12:09 PM: DEBUG [connect_URL.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 06:12:09 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 06:12:11 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 06:12:11 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f5f92a8ba00>
+09/19/2020 06:12:11 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f5f92a8b940>
+09/19/2020 06:12:11 PM: DEBUG [query_dao.py:18] SELECT * FROM persons ORDER BY id_user
+09/19/2020 06:12:11 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 06:12:11 PM: DEBUG [data_generator.py:50] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 06:12:11 PM: DEBUG [data_generator.py:50] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 06:12:56 PM: DEBUG [connect_URL.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 06:12:56 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 06:12:57 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 06:12:57 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fd5ba9a7a00>
+09/19/2020 06:12:57 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fd5ba9a78b0>
+09/19/2020 06:12:57 PM: DEBUG [query_dao.py:18] SELECT * FROM persons ORDER BY id_user
+09/19/2020 06:12:57 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 06:12:57 PM: DEBUG [data_generator.py:50] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 06:12:57 PM: DEBUG [data_generator.py:50] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 06:15:13 PM: DEBUG [connect_URL.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 06:15:13 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 06:15:15 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 06:15:15 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fc6b8fe9a30>
+09/19/2020 06:15:15 PM: DEBUG [query_dao.py:18] SELECT * FROM persons ORDER BY id_user
+09/19/2020 06:15:15 PM: DEBUG [connect_database.py:64] the connection and cursor objects have been closed
+09/19/2020 06:15:15 PM: DEBUG [data_generator.py:50] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 06:15:15 PM: DEBUG [data_generator.py:50] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 06:15:47 PM: DEBUG [connect_URL.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 06:15:47 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 06:15:48 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 06:15:48 PM: DEBUG [query_dao.py:18] SELECT * FROM persons ORDER BY id_user
+09/19/2020 06:15:48 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 06:15:48 PM: DEBUG [data_generator.py:50] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 06:15:48 PM: DEBUG [data_generator.py:50] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 06:22:41 PM: DEBUG [connect_URL.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 06:22:41 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 06:22:42 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 06:22:42 PM: DEBUG [query_dao.py:58] INSERT INTO persons(id_user, name, email, gender, status, date) VALUES(%s,%s,%s,%s,%s,%s)
+09/19/2020 06:22:42 PM: DEBUG [query_dao.py:59] Person to insert: id_post: None, id_user: 2239, name: XnqcrDjtqEcA, email: 6zj05mhl@yf4k6e0q.es, gender: Female, status: Active, date: 2020-9-19
+09/19/2020 06:22:42 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 06:22:42 PM: DEBUG [post_users.py:45] Persons Inserted: 1
+09/19/2020 07:07:19 PM: DEBUG [connect_URL.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 07:07:19 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 07:07:20 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 07:14:50 PM: DEBUG [connect_URL.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 07:14:50 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 07:14:52 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 07:14:52 PM: DEBUG [query_dao.py:34] INSERT INTO persons(post_id, user_id, title, body, date) VALUES(%s,%s,%s,%s,%s)
+09/19/2020 07:14:52 PM: ERROR [query_dao.py:44] Exception to insert person: not enough arguments for format string
+09/19/2020 07:14:52 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 07:14:52 PM: DEBUG [create_user_post.py:48] Persons Inserted: None
+09/19/2020 07:15:59 PM: DEBUG [connect_URL.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 07:15:59 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 07:16:01 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 07:16:40 PM: DEBUG [connect_URL.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 07:16:40 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 07:16:42 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 07:16:42 PM: DEBUG [query_dao.py:34] INSERT INTO posts(post_id, user_id, title, body, date) VALUES(%s,%s,%s,%s,%s)
+09/19/2020 07:16:42 PM: ERROR [query_dao.py:44] Exception to insert person: not enough arguments for format string
+09/19/2020 07:16:42 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 07:16:42 PM: DEBUG [create_user_post.py:48] Persons Inserted: None
+09/19/2020 07:17:10 PM: DEBUG [connect_URL.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 07:17:10 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 07:17:11 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 07:18:46 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 07:19:11 PM: DEBUG [connect_URL.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 07:19:11 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 07:19:12 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 07:19:12 PM: DEBUG [query_dao.py:34] INSERT INTO posts(post_id, user_id, title, body, date) VALUES(%s,%s,%s,%s,%s)
+09/19/2020 07:19:12 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 07:19:12 PM: DEBUG [create_user_post.py:48] Persons Inserted: 1
+09/19/2020 07:22:20 PM: DEBUG [connect_URL.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 07:22:20 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 07:22:22 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 07:22:22 PM: DEBUG [query_dao.py:34] INSERT INTO persons(id_user, name, email, gender, status, date) VALUES(%s,%s,%s,%s,%s,%s)
+09/19/2020 07:22:22 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 07:22:22 PM: DEBUG [post_users.py:45] Persons Inserted: 1
+09/19/2020 07:25:24 PM: DEBUG [connect_URL.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 07:25:24 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 07:25:26 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 07:25:26 PM: DEBUG [query_dao.py:19] SELECT * FROM persons ORDER BY id_user
+09/19/2020 07:25:26 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 07:25:26 PM: DEBUG [data_generator.py:51] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 07:25:26 PM: DEBUG [data_generator.py:51] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 07:25:26 PM: DEBUG [data_generator.py:51] id_post: 3, id_user: 2239, name: XnqcrDjtqEcA, email: 6zj05mhl@yf4k6e0q.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 07:25:26 PM: DEBUG [data_generator.py:51] id_post: 4, id_user: 2287, name: OGIjzWFpUIcS, email: n8mxxaq8@0rp9x1dc.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 07:45:30 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 07:45:30 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 07:45:31 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 07:45:31 PM: DEBUG [person_dao.py:34] INSERT INTO persons(id_user, name, email, gender, status, date) VALUES(%s,%s,%s,%s,%s,%s)
+09/19/2020 07:45:31 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 07:45:31 PM: DEBUG [post_users.py:45] Persons Inserted: 1
+09/19/2020 07:47:33 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 07:47:33 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 07:47:34 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 07:47:34 PM: DEBUG [person_dao.py:34] INSERT INTO posts(post_id, user_id, title, body, date) VALUES(%s,%s,%s,%s,%s)
+09/19/2020 07:47:34 PM: ERROR [person_dao.py:42] Exception to insert person: (1062, "Duplicate entry '1918' for key 'PRIMARY'")
+09/19/2020 07:47:34 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 07:47:34 PM: DEBUG [create_user_post.py:48] Persons Inserted: None
+09/19/2020 07:48:20 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 07:48:20 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 07:48:21 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 07:48:21 PM: DEBUG [person_dao.py:34] INSERT INTO posts(post_id, user_id, title, body, date) VALUES(%s,%s,%s,%s,%s)
+09/19/2020 07:48:21 PM: ERROR [person_dao.py:42] Exception to insert person: (1062, "Duplicate entry '1918' for key 'PRIMARY'")
+09/19/2020 07:48:21 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 07:48:21 PM: DEBUG [create_user_post.py:48] Persons Inserted: None
+09/19/2020 07:48:59 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 07:48:59 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 07:49:00 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 07:51:30 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 07:51:30 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 07:51:31 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 07:51:31 PM: DEBUG [person_dao.py:34] INSERT INTO posts(post_id, user_id, title, body, date) VALUES(%s,%s,%s,%s,%s)
+09/19/2020 07:51:31 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 07:51:31 PM: DEBUG [create_user_post.py:48] Persons Inserted: 1
+09/19/2020 07:56:13 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 07:56:13 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 07:56:15 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 07:56:30 PM: DEBUG [person_dao.py:19] SELECT * FROM posts ORDER BY id_user
+09/19/2020 09:01:15 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 09:01:15 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 09:01:16 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 09:02:38 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 09:02:38 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 09:02:39 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/19/2020 09:02:39 PM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/19/2020 09:02:39 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 09:02:39 PM: DEBUG [data_generator.py:49] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 09:02:39 PM: DEBUG [data_generator.py:49] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 09:02:39 PM: DEBUG [data_generator.py:49] id_post: 3, id_user: 2239, name: XnqcrDjtqEcA, email: 6zj05mhl@yf4k6e0q.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 09:02:39 PM: DEBUG [data_generator.py:49] id_post: 4, id_user: 2287, name: OGIjzWFpUIcS, email: n8mxxaq8@0rp9x1dc.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 09:02:39 PM: DEBUG [data_generator.py:49] id_post: 5, id_user: 2296, name: SqRBvfqjqPyC, email: krf6h4rv@x263vx4s.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 09:04:10 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 09:04:10 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 09:04:12 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/19/2020 09:04:12 PM: DEBUG [dao_base.py:22] INSERT INTO persons(id_user, name, email, gender, status, date) VALUES(%s,%s,%s,%s,%s,%s)
+09/19/2020 09:04:12 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 09:04:12 PM: DEBUG [post_users.py:45] Persons Inserted: 1
+09/19/2020 09:12:45 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 09:12:45 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 09:12:47 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 09:12:47 PM: DEBUG [post_dao.py:16] SELECT * FROM post ORDER BY id_user
+09/19/2020 09:13:49 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 09:13:49 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 09:13:50 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 09:14:10 PM: DEBUG [post_dao.py:16] SELECT * FROM post ORDER BY id_user
+09/19/2020 09:15:01 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 09:15:01 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 09:15:02 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 09:15:02 PM: DEBUG [post_dao.py:16] SELECT * FROM post ORDER BY user_id
+09/19/2020 09:15:30 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 09:15:30 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 09:15:32 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 09:17:19 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 09:17:19 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 09:17:20 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 09:17:20 PM: DEBUG [post_dao.py:16] SELECT * FROM posts ORDER BY user_id
+09/19/2020 09:17:20 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 09:17:20 PM: DEBUG [data_generator.py:66] id_post: 1260, user_id: 1769, title: SMiwbGzYuozdcsb,body: eOOuyidmhpZxgKGxjVQUWGhwvsafyIgJroFcozriuKoFrYeALULJLhPHRrrITfAPdfLIeFfzBlgOcaESqNKzirmhRwBgRbjZmVr, date: 2020-09-16
+09/19/2020 09:17:20 PM: DEBUG [data_generator.py:66] id_post: 1211, user_id: 1918, title: TCnSkJcenGeOfUS,body: KBNfnrTazeOaxihcNfArteBGSmWsgZcjvunZxwFhngPYqfmUWsMEAtdtovvZujyKLhGninXYXFYORWAdbgauBdxwhbPzXcSrnTM, date: 2020-09-19
+09/19/2020 09:17:20 PM: DEBUG [data_generator.py:66] id_post: 1215, user_id: 1918, title: GHdLDbonKhDWIYs,body: wATvDCkPNBnkAiCklCXCNDIoJPSrkoAefHeDuJonaEoUiTfKwXrSyOwQRMbTeZvGiegodevBFPhDxKfxGAQQkTHAeDCoXeHkUir, date: 2020-09-19
+09/19/2020 09:17:48 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 09:17:48 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 09:17:49 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 09:17:49 PM: DEBUG [post_dao.py:16] SELECT * FROM posts ORDER BY user_id
+09/19/2020 09:17:49 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 09:17:49 PM: DEBUG [data_generator.py:66] id_post: 1260, user_id: 1769, title: SMiwbGzYuozdcsb,body: eOOuyidmhpZxgKGxjVQUWGhwvsafyIgJroFcozriuKoFrYeALULJLhPHRrrITfAPdfLIeFfzBlgOcaESqNKzirmhRwBgRbjZmVr, date: 2020-09-16
+09/19/2020 09:17:49 PM: DEBUG [data_generator.py:66] id_post: 1211, user_id: 1918, title: TCnSkJcenGeOfUS,body: KBNfnrTazeOaxihcNfArteBGSmWsgZcjvunZxwFhngPYqfmUWsMEAtdtovvZujyKLhGninXYXFYORWAdbgauBdxwhbPzXcSrnTM, date: 2020-09-19
+09/19/2020 09:17:49 PM: DEBUG [data_generator.py:66] id_post: 1215, user_id: 1918, title: GHdLDbonKhDWIYs,body: wATvDCkPNBnkAiCklCXCNDIoJPSrkoAefHeDuJonaEoUiTfKwXrSyOwQRMbTeZvGiegodevBFPhDxKfxGAQQkTHAeDCoXeHkUir, date: 2020-09-19
+09/19/2020 09:18:23 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 09:18:23 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 09:18:25 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 09:18:25 PM: DEBUG [post_dao.py:16] SELECT * FROM posts ORDER BY user_id
+09/19/2020 09:20:45 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 09:24:22 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 09:24:22 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 09:24:24 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 09:24:24 PM: DEBUG [post_dao.py:16] SELECT * FROM posts ORDER BY user_id
+09/19/2020 09:24:24 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 09:24:24 PM: DEBUG [data_generator.py:66] id_post: 1260, user_id: 1769, title: SMiwbGzYuozdcsb,body: eOOuyidmhpZxgKGxjVQUWGhwvsafyIgJroFcozriuKoFrYeALULJLhPHRrrITfAPdfLIeFfzBlgOcaESqNKzirmhRwBgRbjZmVr, date: 2020-09-16
+09/19/2020 09:24:24 PM: DEBUG [data_generator.py:66] id_post: 1211, user_id: 1918, title: TCnSkJcenGeOfUS,body: KBNfnrTazeOaxihcNfArteBGSmWsgZcjvunZxwFhngPYqfmUWsMEAtdtovvZujyKLhGninXYXFYORWAdbgauBdxwhbPzXcSrnTM, date: 2020-09-19
+09/19/2020 09:24:24 PM: DEBUG [data_generator.py:66] id_post: 1215, user_id: 1918, title: GHdLDbonKhDWIYs,body: wATvDCkPNBnkAiCklCXCNDIoJPSrkoAefHeDuJonaEoUiTfKwXrSyOwQRMbTeZvGiegodevBFPhDxKfxGAQQkTHAeDCoXeHkUir, date: 2020-09-19
+09/19/2020 09:24:43 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/19/2020 09:24:43 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/19/2020 09:24:44 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918/posts HTTP/1.1" 200 None
+09/19/2020 09:24:44 PM: DEBUG [post_dao.py:16] SELECT * FROM posts ORDER BY user_id
+09/19/2020 09:25:02 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/19/2020 09:25:45 PM: DEBUG [data_generator.py:66] id_post: 1260, user_id: 1769, title: SMiwbGzYuozdcsb,body: eOOuyidmhpZxgKGxjVQUWGhwvsafyIgJroFcozriuKoFrYeALULJLhPHRrrITfAPdfLIeFfzBlgOcaESqNKzirmhRwBgRbjZmVr, date: 2020-09-16
+09/19/2020 09:25:48 PM: DEBUG [data_generator.py:66] id_post: 1211, user_id: 1918, title: TCnSkJcenGeOfUS,body: KBNfnrTazeOaxihcNfArteBGSmWsgZcjvunZxwFhngPYqfmUWsMEAtdtovvZujyKLhGninXYXFYORWAdbgauBdxwhbPzXcSrnTM, date: 2020-09-19
+09/19/2020 09:25:49 PM: DEBUG [data_generator.py:66] id_post: 1215, user_id: 1918, title: GHdLDbonKhDWIYs,body: wATvDCkPNBnkAiCklCXCNDIoJPSrkoAefHeDuJonaEoUiTfKwXrSyOwQRMbTeZvGiegodevBFPhDxKfxGAQQkTHAeDCoXeHkUir, date: 2020-09-19
+09/20/2020 09:05:12 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 09:05:12 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 09:05:14 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/20/2020 09:05:14 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 09:05:14 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 09:05:38 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 09:05:38 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 09:05:39 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1918 HTTP/1.1" 200 None
+09/20/2020 09:05:39 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 09:05:39 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 09:14:06 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 09:14:06 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 09:14:07 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/20/2020 09:14:07 AM: DEBUG [dao_base.py:22] INSERT INTO persons(id_user, name, email, gender, status, date) VALUES(%s,%s,%s,%s,%s,%s)
+09/20/2020 09:14:07 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 09:14:07 AM: DEBUG [post_users.py:45] Persons Inserted: 1
+09/20/2020 09:31:50 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 09:31:50 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 09:32:44 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 09:32:44 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 09:42:01 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 09:42:01 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 09:43:02 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 09:43:02 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 09:43:03 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819 HTTP/1.1" 200 None
+09/20/2020 09:43:56 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 09:43:56 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 09:43:57 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 09:43:57 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 09:43:58 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819 HTTP/1.1" 200 None
+09/20/2020 09:46:31 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 09:46:31 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 09:46:31 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 09:46:31 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 09:46:33 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819 HTTP/1.1" 200 None
+09/20/2020 09:49:53 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 09:52:00 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 09:53:11 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 09:53:11 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 09:53:12 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819 HTTP/1.1" 200 None
+09/20/2020 10:02:36 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:02:39 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:02:39 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 10:02:39 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 10:02:41 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819 HTTP/1.1" 200 None
+09/20/2020 10:03:17 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:03:17 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:03:17 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 10:03:17 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 10:03:18 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819 HTTP/1.1" 200 None
+09/20/2020 10:12:15 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:12:15 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:12:15 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 10:12:15 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 10:12:16 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819 HTTP/1.1" 200 None
+09/20/2020 10:14:44 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:14:44 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:14:44 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 10:14:44 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 10:14:46 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819 HTTP/1.1" 200 None
+09/20/2020 10:15:31 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:15:31 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:15:31 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 10:15:31 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 10:15:32 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819 HTTP/1.1" 200 None
+09/20/2020 10:17:06 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:17:06 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:17:06 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 10:17:06 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 10:17:08 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819 HTTP/1.1" 200 None
+09/20/2020 10:25:01 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:25:01 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:33:29 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:33:29 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:33:54 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:33:54 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:34:21 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:34:21 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:36:20 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:36:20 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:37:03 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:37:03 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:39:14 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:39:14 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:39:57 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 10:39:57 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 10:39:59 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819 HTTP/1.1" 200 None
+09/20/2020 10:41:23 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:41:23 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:46:12 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:46:12 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:46:38 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 10:46:38 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:46:56 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 10:46:56 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 10:46:58 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819 HTTP/1.1" 200 None
+09/20/2020 10:59:25 AM: DEBUG [post_dao.py:16] SELECT * FROM posts ORDER BY user_id
+09/20/2020 10:59:30 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:59:30 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 10:59:30 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 10:59:32 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users//posts HTTP/1.1" 200 None
+09/20/2020 11:00:35 AM: DEBUG [post_dao.py:16] SELECT * FROM posts ORDER BY user_id
+09/20/2020 11:00:35 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 11:05:08 AM: DEBUG [post_dao.py:16] SELECT * FROM posts ORDER BY user_id
+09/20/2020 11:05:08 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 11:13:25 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 11:13:25 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 11:13:25 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 11:13:25 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 11:13:26 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819/posts HTTP/1.1" 200 None
+09/20/2020 11:28:05 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 11:28:05 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 11:28:05 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 11:28:05 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 11:28:06 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819 HTTP/1.1" 200 None
+09/20/2020 11:32:58 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 11:32:58 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 11:32:59 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819/posts HTTP/1.1" 200 None
+09/20/2020 11:33:01 AM: DEBUG [post_dao.py:16] SELECT * FROM posts ORDER BY user_id
+09/20/2020 11:33:01 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 11:33:56 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 11:33:56 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 11:33:58 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819/posts HTTP/1.1" 200 None
+09/20/2020 11:33:58 AM: DEBUG [post_dao.py:16] SELECT * FROM posts ORDER BY user_id
+09/20/2020 11:33:58 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 11:34:21 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 11:34:21 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 11:34:22 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819/posts HTTP/1.1" 200 None
+09/20/2020 11:34:22 AM: DEBUG [post_dao.py:16] SELECT * FROM posts ORDER BY user_id
+09/20/2020 11:34:22 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 11:37:39 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 11:37:39 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 11:37:41 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1819/posts HTTP/1.1" 200 None
+09/20/2020 11:37:41 AM: DEBUG [dao_base.py:22] INSERT INTO posts(post_id, user_id, title, body, date) VALUES(%s,%s,%s,%s,%s)
+09/20/2020 11:37:41 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 11:37:41 AM: DEBUG [create_user_post.py:48] Persons Inserted: 1
+09/20/2020 11:38:30 AM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 11:38:30 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 11:38:31 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1819/posts HTTP/1.1" 200 None
+09/20/2020 11:38:31 AM: DEBUG [post_dao.py:16] SELECT * FROM posts ORDER BY user_id
+09/20/2020 11:38:31 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 12:51:00 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 12:51:00 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 12:51:01 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/20/2020 12:51:01 PM: DEBUG [dao_base.py:22] INSERT INTO persons(id_user, name, email, gender, status, date) VALUES(%s,%s,%s,%s,%s,%s)
+09/20/2020 12:51:01 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 12:51:01 PM: DEBUG [post_users.py:45] Persons Inserted: 1
+09/20/2020 12:51:49 PM: DEBUG [connection_info.py:21] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 12:51:49 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 12:51:50 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1999/posts HTTP/1.1" 200 None
+09/20/2020 12:51:50 PM: DEBUG [dao_base.py:22] INSERT INTO posts(post_id, user_id, title, body, date) VALUES(%s,%s,%s,%s,%s)
+09/20/2020 12:51:50 PM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 12:51:50 PM: DEBUG [create_user_post.py:48] Persons Inserted: 1
+09/20/2020 01:03:15 PM: DEBUG [connection_info.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 01:03:15 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 01:03:16 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/comments HTTP/1.1" 200 None
+09/20/2020 01:19:19 PM: DEBUG [connection_info.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 01:19:19 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 01:19:21 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/comments HTTP/1.1" 200 None
+09/20/2020 01:26:39 PM: DEBUG [connection_info.py:22] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/20/2020 01:26:39 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 01:26:40 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/comments HTTP/1.1" 200 None
+09/20/2020 01:39:57 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:39:57 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:42:44 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:42:44 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:43:09 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:43:09 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:44:01 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:44:01 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:44:41 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:44:41 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:45:48 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:45:48 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:47:21 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:47:21 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:48:23 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:48:24 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:51:52 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:51:52 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:52:40 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:52:40 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:53:20 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:53:20 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:57:38 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:57:38 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:58:37 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:58:37 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:59:36 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 01:59:36 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 02:03:54 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 02:03:55 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/posts/1398/comments HTTP/1.1" 200 None
+09/20/2020 02:19:26 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 02:19:28 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/posts/1398/comments HTTP/1.1" 200 None
+09/20/2020 02:19:47 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 02:19:49 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/posts/1398/comments HTTP/1.1" 200 None
+09/20/2020 02:21:56 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 02:21:57 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/posts/1398/comments HTTP/1.1" 200 None
+09/20/2020 02:32:02 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 02:32:03 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/posts/1398/comments HTTP/1.1" 200 None
+09/20/2020 02:32:36 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 02:32:37 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/posts/1398/comments HTTP/1.1" 200 None
+09/20/2020 02:33:47 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 02:33:48 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/posts/1398/comments HTTP/1.1" 200 None
+09/20/2020 02:34:25 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 02:34:26 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/posts/1398/comments HTTP/1.1" 200 None
+09/20/2020 02:34:52 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 02:34:53 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/posts/1398/comments HTTP/1.1" 200 None
+09/20/2020 02:35:07 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/20/2020 02:35:09 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/posts/1398/comments HTTP/1.1" 200 None
+09/21/2020 08:08:15 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:08:16 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:09:08 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:09:10 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:10:28 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:10:30 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:11:36 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:11:38 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:12:57 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:12:59 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:19:48 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:19:50 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:23:13 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:23:15 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:23:38 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:23:39 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:24:02 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:24:03 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:24:59 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:25:01 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:25:54 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:25:55 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:27:38 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:27:40 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:32:41 AM: DEBUG [connection_info.py:29] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 08:32:41 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:32:42 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:46:25 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 08:46:25 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:46:26 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:46:56 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 08:46:56 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:46:58 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:46:58 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:46:59 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1673 HTTP/1.1" 200 None
+09/21/2020 08:47:36 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 08:47:36 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:47:37 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:47:37 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:47:39 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1674 HTTP/1.1" 200 None
+09/21/2020 08:59:14 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 08:59:14 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:59:15 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 08:59:15 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 08:59:16 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1679 HTTP/1.1" 200 None
+09/21/2020 08:59:16 AM: INFO [post_get_users.py:45] user_id: 1679
+09/21/2020 09:11:39 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:11:39 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:11:41 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 09:12:32 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:12:32 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:12:33 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 09:13:38 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:13:38 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:13:39 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 09:13:59 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:13:59 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:14:00 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 09:15:22 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:15:22 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:15:24 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:18:52 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:18:52 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:18:54 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:36:28 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:36:28 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:36:30 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:36:30 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:36:31 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:37:49 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:37:49 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:37:51 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:37:51 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:37:52 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:39:58 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:39:58 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:40:00 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:40:03 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:40:05 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:41:19 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:41:19 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:41:20 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:41:26 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:41:27 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:44:18 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:44:18 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:44:19 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:44:19 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:44:21 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:44:35 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:44:35 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:44:36 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:44:36 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:44:38 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:46:07 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:46:07 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:46:09 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:46:09 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:46:10 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:48:30 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:48:30 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:48:32 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:48:32 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:48:33 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:48:57 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:48:57 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:48:59 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:48:59 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:49:00 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:49:22 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:49:22 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:49:23 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:49:23 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:49:25 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:51:39 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:51:39 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:51:41 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:51:41 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:51:42 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:52:27 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:52:27 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:52:28 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:52:31 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:52:32 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:54:44 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:54:44 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:54:45 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:54:48 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:54:49 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:56:51 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:56:51 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:56:52 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:56:58 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:57:00 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:57:46 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:57:46 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:57:47 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:57:47 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:57:49 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:58:26 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:58:26 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:58:27 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:58:27 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:58:28 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:05:42 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 10:05:42 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:05:44 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:05:44 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:05:45 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:07:24 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 10:07:24 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:07:26 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:07:26 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:07:27 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:09:23 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 10:09:23 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:09:26 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:09:28 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:09:29 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:11:28 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 10:11:28 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:11:30 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:11:30 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:11:31 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:12:38 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 10:12:38 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:12:39 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:12:39 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:12:41 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:14:08 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 10:14:08 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:14:10 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:14:10 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:14:11 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 10:14:27 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 10:14:27 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:14:28 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:14:28 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:14:30 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 10:16:46 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:16:46 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:16:47 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:16:47 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:16:49 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 10:16:56 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:16:56 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:16:57 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:16:57 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:16:58 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 10:17:02 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:17:02 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:17:03 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:17:03 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:17:04 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 10:19:40 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:19:40 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:19:42 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:19:42 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:19:43 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 10:23:03 AM: DEBUG [connection_info.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:23:03 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:23:04 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:23:07 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:23:08 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 10:24:04 AM: DEBUG [connection_info.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:24:04 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:24:05 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:24:05 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:24:07 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 10:25:33 AM: DEBUG [connection_info.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:25:33 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:25:34 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:25:34 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:25:36 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:25:50 AM: DEBUG [connection_info.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:25:50 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:25:52 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:25:54 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:25:56 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:26:53 AM: DEBUG [connection_info.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:26:53 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:26:54 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:26:54 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:26:56 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:27:12 AM: DEBUG [connection_info.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:27:12 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:27:14 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:27:28 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:27:29 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 10:32:01 AM: DEBUG [connection_info.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:32:01 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:32:02 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:32:02 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:32:04 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 10:32:04 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:32:05 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1777 HTTP/1.1" 200 None
+09/21/2020 10:32:05 AM: INFO [post_get_users.py:66] user_id: 1777
+09/21/2020 10:53:59 AM: DEBUG [connection_info.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:53:59 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:54:01 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 10:54:01 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:54:02 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1785 HTTP/1.1" 200 None
+09/21/2020 10:54:02 AM: INFO [post_get_users.py:64] user_id: 1785
+09/21/2020 10:57:02 AM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:57:02 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:57:04 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:58:45 AM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:58:45 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:58:46 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:59:29 AM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:59:29 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:59:31 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:59:31 AM: INFO [post_get_posts.py:25] user_id: 1211
+09/21/2020 10:59:52 AM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:59:52 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:59:53 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 10:59:53 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:59:55 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1787 HTTP/1.1" 200 None
+09/21/2020 10:59:55 AM: INFO [post_get_users.py:43] user_id: 1787
+09/21/2020 11:09:22 AM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 11:09:22 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:09:24 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 11:09:24 AM: INFO [post_get_posts.py:26] post_id: 1212
+09/21/2020 11:09:24 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:09:25 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 11:11:46 AM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 11:11:46 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:11:48 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 11:11:48 AM: INFO [post_get_posts.py:26] post_id: 1213
+09/21/2020 11:11:48 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:11:49 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 11:18:08 AM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 11:18:08 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:18:11 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 11:18:11 AM: INFO [post_get_posts.py:26] post_id: 1214
+09/21/2020 11:18:11 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:18:12 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 11:20:18 AM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 11:20:19 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:20:20 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 11:20:20 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:20:21 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1825 HTTP/1.1" 200 None
+09/21/2020 11:20:21 AM: INFO [post_get_users.py:43] user_id: 1825
+09/21/2020 11:21:03 AM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 11:21:03 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:21:04 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1825/posts HTTP/1.1" 200 None
+09/21/2020 11:21:04 AM: INFO [post_get_posts.py:26] post_id: 1215
+09/21/2020 11:21:04 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:21:06 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1825/posts HTTP/1.1" 200 None
+09/21/2020 11:34:43 AM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 11:34:43 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:34:44 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/comments HTTP/1.1" 200 None
+09/21/2020 11:50:12 AM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 11:50:12 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:50:14 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/comments HTTP/1.1" 200 None
+09/21/2020 11:51:04 AM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 11:51:04 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:51:05 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/comments HTTP/1.1" 200 None
+09/21/2020 11:51:05 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:51:07 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/posts/1215/comments HTTP/1.1" 200 None
+09/21/2020 11:53:57 AM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 11:53:57 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:53:59 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/comments HTTP/1.1" 200 None
+09/21/2020 11:53:59 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:54:00 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/posts/1215/comments HTTP/1.1" 200 None
+09/21/2020 11:56:57 AM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 11:56:57 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:56:59 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/comments HTTP/1.1" 200 None
+09/21/2020 11:56:59 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 11:57:00 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/posts/1215/comments HTTP/1.1" 200 None
+09/21/2020 12:37:05 PM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 12:37:05 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 12:37:06 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 12:37:06 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 12:37:07 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1892 HTTP/1.1" 200 None
+09/21/2020 12:37:36 PM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 12:37:36 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 12:37:37 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 12:37:37 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 12:37:39 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1893 HTTP/1.1" 200 None
+09/21/2020 12:37:39 PM: INFO [user.py:44] user_id: 1893
+09/21/2020 01:01:01 PM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 01:01:01 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:01:02 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "PUT /public-api/users/1893 HTTP/1.1" 200 None
+09/21/2020 01:04:16 PM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 01:04:16 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:04:17 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:04:17 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:04:18 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1916 HTTP/1.1" 200 None
+09/21/2020 01:04:18 PM: INFO [user.py:44] user_id: 1916
+09/21/2020 01:04:18 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:04:20 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "PUT /public-api/users/1893 HTTP/1.1" 200 None
+09/21/2020 01:26:32 PM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 01:26:32 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:26:34 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:26:34 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:26:35 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1967 HTTP/1.1" 200 None
+09/21/2020 01:26:35 PM: INFO [user.py:33] user_id: 1967
+09/21/2020 01:26:35 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:26:37 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "PUT /public-api/users/1916 HTTP/1.1" 200 None
+09/21/2020 01:26:37 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:26:38 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1916 HTTP/1.1" 200 None
+09/21/2020 01:28:34 PM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 01:28:34 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:28:35 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "PUT /public-api/users/1916 HTTP/1.1" 200 None
+09/21/2020 01:28:35 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:28:37 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1916 HTTP/1.1" 200 None
+09/21/2020 01:28:37 PM: INFO [user.py:54] user_id: 1916
+09/21/2020 01:53:29 PM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 01:53:29 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:53:31 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:53:31 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:53:32 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1988 HTTP/1.1" 200 None
+09/21/2020 01:53:32 PM: INFO [user.py:34] user_id: 1988
+09/21/2020 01:53:32 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:53:33 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:54:14 PM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 01:54:14 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:54:16 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:54:16 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:54:17 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1990 HTTP/1.1" 200 None
+09/21/2020 01:54:17 PM: INFO [user.py:34] user_id: 1990
+09/21/2020 01:54:17 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:54:18 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:55:33 PM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 01:55:33 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:55:34 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:55:34 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:55:35 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1991 HTTP/1.1" 200 None
+09/21/2020 01:55:35 PM: INFO [user.py:34] user_id: 1991
+09/21/2020 01:55:35 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:55:36 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:55:57 PM: DEBUG [gorest_request.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 01:55:57 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:55:58 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:55:58 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:56:00 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1992 HTTP/1.1" 200 None
+09/21/2020 01:56:00 PM: INFO [user.py:34] user_id: 1992
+09/21/2020 01:56:24 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:56:25 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:57:42 PM: DEBUG [gorest_request.py:34] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 01:57:42 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:57:44 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:57:44 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:57:46 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1996 HTTP/1.1" 200 None
+09/21/2020 01:57:46 PM: INFO [user.py:34] user_id: 1996
+09/21/2020 01:57:46 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:57:47 PM: DEBUG [gorest_request.py:34] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 01:57:47 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:57:47 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:57:48 PM: DEBUG [gorest_request.py:34] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 01:57:48 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:57:49 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:57:49 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:57:49 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:57:49 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:57:50 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:57:50 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:57:52 PM: DEBUG [gorest_request.py:34] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 01:57:52 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:57:53 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 01:57:53 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:57:54 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/1999 HTTP/1.1" 200 None
+09/21/2020 01:57:54 PM: INFO [user.py:34] user_id: 1999
+09/21/2020 01:57:54 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 01:57:56 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 02:03:50 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:03:50 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:03:51 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 02:03:51 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:03:51 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:03:52 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/2001 HTTP/1.1" 200 None
+09/21/2020 02:03:52 PM: INFO [user.py:34] user_id: 2001
+09/21/2020 02:03:52 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:03:52 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:03:54 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 02:03:54 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:03:54 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:03:55 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "PUT /public-api/users/2002 HTTP/1.1" 200 None
+09/21/2020 02:03:55 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:03:55 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:03:56 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/2002 HTTP/1.1" 200 None
+09/21/2020 02:03:56 PM: INFO [user.py:60] user_id: 2002
+09/21/2020 02:18:22 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:18:22 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:18:24 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 02:18:24 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:18:24 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:18:25 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/2042 HTTP/1.1" 200 None
+09/21/2020 02:18:25 PM: INFO [user.py:31] user_id: 2042
+09/21/2020 02:18:25 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:18:25 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:18:26 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 02:18:26 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:18:26 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:18:28 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "PUT /public-api/users/2043 HTTP/1.1" 200 None
+09/21/2020 02:18:28 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:18:28 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:18:29 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/2043 HTTP/1.1" 200 None
+09/21/2020 02:18:29 PM: INFO [user.py:57] user_id: 2043
+09/21/2020 02:30:28 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:30:28 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:30:29 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 02:30:57 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:30:57 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:30:58 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 02:30:58 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:30:58 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:31:00 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "DELETE /public-api/users/2051 HTTP/1.1" 200 None
+09/21/2020 02:35:15 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:35:15 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:35:16 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 02:35:16 PM: INFO [delete.py:20] 2054
+09/21/2020 02:35:16 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:35:16 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:35:17 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "DELETE /public-api/users/2054 HTTP/1.1" 200 None
+09/21/2020 02:35:17 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:35:17 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:35:19 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/2054 HTTP/1.1" 200 None
+09/21/2020 02:37:59 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:37:59 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:38:00 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 02:38:00 PM: INFO [delete.py:20] 2056
+09/21/2020 02:38:00 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:38:00 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:38:02 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "DELETE /public-api/users/2056 HTTP/1.1" 200 None
+09/21/2020 02:38:02 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:38:02 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:38:03 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/2056 HTTP/1.1" 200 None
+09/21/2020 02:38:31 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:38:31 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:38:33 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 02:38:33 PM: INFO [delete.py:20] 2058
+09/21/2020 02:38:33 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:38:33 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:38:34 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "DELETE /public-api/users/2058 HTTP/1.1" 200 None
+09/21/2020 02:38:34 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:38:34 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:38:35 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/2058 HTTP/1.1" 200 None
+09/21/2020 02:39:37 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:39:37 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:39:39 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 02:39:39 PM: INFO [delete.py:20] 2059
+09/21/2020 02:39:39 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:39:39 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:39:40 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "DELETE /public-api/users/2059 HTTP/1.1" 200 None
+09/21/2020 02:39:40 PM: DEBUG [gorest_request.py:32] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 02:39:40 PM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 02:39:41 PM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "GET /public-api/users/2059 HTTP/1.1" 200 None

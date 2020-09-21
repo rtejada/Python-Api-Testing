@@ -1,0 +1,81 @@
+09/19/2020 09:13:29 AM: WARNING [logger_base.py:14] mensaje a nivel warning
+09/19/2020 09:13:29 AM: INFO [logger_base.py:15] mensaje a nivel info
+09/19/2020 09:13:29 AM: DEBUG [logger_base.py:16] mensaje a nivel debug
+09/19/2020 09:13:29 AM: ERROR [logger_base.py:17] Ocurrió un error en la base de datos
+09/19/2020 09:13:29 AM: DEBUG [logger_base.py:18] se realizó la conexión con exito
+09/19/2020 09:14:12: WARNING [logger_base.py:14] mensaje a nivel warning
+09/19/2020 09:14:12: INFO [logger_base.py:15] mensaje a nivel info
+09/19/2020 09:14:12: DEBUG [logger_base.py:16] mensaje a nivel debug
+09/19/2020 09:14:12: ERROR [logger_base.py:17] Ocurrió un error en la base de datos
+09/19/2020 09:14:12: DEBUG [logger_base.py:18] se realizó la conexión con exito
+09/19/2020 09:14 51: WARNING [logger_base.py:14] mensaje a nivel warning
+09/19/2020 09:14 51: INFO [logger_base.py:15] mensaje a nivel info
+09/19/2020 09:14 51: DEBUG [logger_base.py:16] mensaje a nivel debug
+09/19/2020 09:14 51: ERROR [logger_base.py:17] Ocurrió un error en la base de datos
+09/19/2020 09:14 51: DEBUG [logger_base.py:18] se realizó la conexión con exito
+09/19/2020 09:15:11 AM: WARNING [logger_base.py:14] mensaje a nivel warning
+09/19/2020 09:15:11 AM: INFO [logger_base.py:15] mensaje a nivel info
+09/19/2020 09:15:11 AM: DEBUG [logger_base.py:16] mensaje a nivel debug
+09/19/2020 09:15:11 AM: ERROR [logger_base.py:17] Ocurrió un error en la base de datos
+09/19/2020 09:15:11 AM: DEBUG [logger_base.py:18] se realizó la conexión con exito
+09/19/2020 09:27:19 AM: ERROR [connecction_database.py:39] Error when creating connection pool: FATAL:  la autentificación password falló para el usuario «root»
+FATAL:  la autentificación password falló para el usuario «root»
+
+09/19/2020 09:29:58 AM: ERROR [connecction_database.py:39] Error when creating connection pool: FATAL:  la autentificación password falló para el usuario «root»
+FATAL:  la autentificación password falló para el usuario «root»
+
+09/19/2020 09:30:32 AM: ERROR [connecction_database.py:39] Error when creating connection pool: FATAL:  la autentificación password falló para el usuario «root»
+FATAL:  la autentificación password falló para el usuario «root»
+
+09/19/2020 09:48:41 AM: ERROR [connecction_database.py:39] Error when creating connection pool: FATAL:  la autentificación password falló para el usuario «root»
+FATAL:  la autentificación password falló para el usuario «root»
+
+09/19/2020 10:53:02 AM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f4eb19fe670>
+09/19/2020 10:53:02 AM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f4eb19fe6a0>
+09/19/2020 10:53:02 AM: INFO [connect_database.py:69] <pymysql.cursors.Cursor object at 0x7f4eb19fe6a0>
+09/19/2020 10:53:02 AM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 11:20:28 AM: DEBUG [table_persons.py:68] id_person: 1, id: Juan, name: Perez, email: email, gender: None, status: None, date: None
+09/19/2020 11:20:28 AM: DEBUG [table_persons.py:71] id_person: None, id: None, name: None, email: None, gender: None, status: None, date: None
+09/19/2020 11:20:28 AM: DEBUG [table_persons.py:74] id_person: 1, id: None, name: None, email: None, gender: None, status: None, date: None
+09/19/2020 05:40:04 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f2c70abcdc0>
+09/19/2020 05:40:04 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f2c702c9d60>
+09/19/2020 05:40:04 PM: DEBUG [query_dao.py:31] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 05:40:04 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/20/2020 02:01:27 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 02:01:41 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/20/2020 02:02:02 PM: WARNING [main.py:50] Python-dotenv could not parse statement starting at line 3
+09/21/2020 07:45:15 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 07:45:17 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users HTTP/1.1" 200 None
+09/21/2020 09:04:57 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:04:57 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:04:59 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679 HTTP/1.1" 404 None
+09/21/2020 09:05:36 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:05:36 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:05:38 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:43:24 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:43:24 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:43:25 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:43:46 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:43:46 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:43:47 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:50:37 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:50:37 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:50:38 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:50:57 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:50:57 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:50:58 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 09:51:08 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 09:51:08 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 09:51:09 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:02:47 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 10:02:47 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:02:48 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:03:15 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 10:03:15 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:03:16 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:05:15 AM: DEBUG [connection_info.py:34] successful connection: {'Authorization': 'Bearer bff51a47b45d3a1f76a5d8048143abd9483cd360b9935b0113eef260bdfacf27', 'Content-Type': 'application/json'}
+09/21/2020 10:05:15 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:05:16 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None
+09/21/2020 10:25:08 AM: DEBUG [connection_info.py:35] successful connection: {'Authorization': 'Bearer 1c0d87ee4dbcb663a26c206d83be1ede26a49110bd6b6af8439532a0011bdd42', 'Content-Type': 'application/json'}
+09/21/2020 10:25:08 AM: DEBUG [connectionpool.py:939] Starting new HTTPS connection (1): gorest.co.in:443
+09/21/2020 10:25:09 AM: DEBUG [connectionpool.py:433] https://gorest.co.in:443 "POST /public-api/users/1679/posts HTTP/1.1" 200 None

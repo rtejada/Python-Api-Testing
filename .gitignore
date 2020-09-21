@@ -1,0 +1,8 @@
+gorest-test/.env.gorest
+
+.temp
+.txt
+.idea/
+.idea
+
+venv/

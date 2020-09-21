@@ -1,0 +1,92 @@
+09/19/2020 01:20:20 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fc0f8149790>
+09/19/2020 01:20:20 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fc0f8149850>
+09/19/2020 01:20:20 PM: DEBUG [query_dao.py:19] SELECT * FROM persons ORDER BY id_user
+09/19/2020 01:20:20 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 01:20:20 PM: DEBUG [data_generator.py:64] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 01:21:31 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fcc88961a90>
+09/19/2020 01:21:31 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fcc868d2820>
+09/19/2020 01:21:31 PM: DEBUG [query_dao.py:19] SELECT * FROM persons ORDER BY id_user
+09/19/2020 01:26:34 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 01:30:35 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f5f3ef1a730>
+09/19/2020 01:30:35 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f5f3ef1a8b0>
+09/19/2020 01:30:35 PM: DEBUG [query_dao.py:19] SELECT * FROM persons ORDER BY id_user
+09/19/2020 01:30:35 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 01:30:35 PM: DEBUG [data_generator.py:63] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 01:30:56 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fc0bfd36730>
+09/19/2020 01:30:56 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fc0bfd368b0>
+09/19/2020 01:30:56 PM: DEBUG [query_dao.py:19] SELECT * FROM persons ORDER BY id_user
+09/19/2020 01:30:56 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 01:30:56 PM: DEBUG [data_generator.py:63] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 01:30:56 PM: DEBUG [data_generator.py:64] 144
+09/19/2020 01:30:56 PM: DEBUG [data_generator.py:63] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 01:30:56 PM: DEBUG [data_generator.py:64] 1918
+09/19/2020 01:33:42 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f96e1d1b700>
+09/19/2020 01:33:42 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f96e1d1b880>
+09/19/2020 01:33:42 PM: DEBUG [query_dao.py:19] SELECT * FROM persons ORDER BY id_user
+09/19/2020 01:33:42 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 01:33:42 PM: DEBUG [data_generator.py:64] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 01:33:42 PM: DEBUG [data_generator.py:65] 144
+09/19/2020 01:33:42 PM: DEBUG [data_generator.py:64] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 01:33:42 PM: DEBUG [data_generator.py:65] 1918
+09/19/2020 02:05:04 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fc5ac6c5700>
+09/19/2020 02:05:04 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fc5ac6c5880>
+09/19/2020 02:05:04 PM: DEBUG [query_dao.py:19] SELECT * FROM persons ORDER BY id_user
+09/19/2020 02:05:04 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 02:05:04 PM: DEBUG [data_generator.py:62] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 02:05:04 PM: DEBUG [data_generator.py:63] 144
+09/19/2020 02:05:53 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fef98118700>
+09/19/2020 02:05:53 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fef98118880>
+09/19/2020 02:05:53 PM: DEBUG [query_dao.py:19] SELECT * FROM persons ORDER BY id_user
+09/19/2020 02:05:53 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 02:05:53 PM: DEBUG [data_generator.py:62] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 02:05:53 PM: DEBUG [data_generator.py:63] 144
+09/19/2020 02:05:53 PM: DEBUG [data_generator.py:62] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 02:05:53 PM: DEBUG [data_generator.py:63] 1918
+09/19/2020 02:21:06 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f3082ab2220>
+09/19/2020 02:21:08 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f3082aa8e50>
+09/19/2020 02:21:18 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 02:22:53 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f48c9b9bfa0>
+09/19/2020 02:22:53 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f48c93bb100>
+09/19/2020 02:22:53 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 02:25:38 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f1ef3a1aa00>
+09/19/2020 02:25:38 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f1ef3a1aeb0>
+09/19/2020 02:25:38 PM: DEBUG [query_dao.py:30] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 02:25:38 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 05:41:32 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fea0283dee0>
+09/19/2020 05:41:32 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fea0283dfa0>
+09/19/2020 05:41:32 PM: DEBUG [query_dao.py:31] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 05:44:49 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7ff156f8bfa0>
+09/19/2020 05:44:49 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7ff156f8ba00>
+09/19/2020 05:44:49 PM: DEBUG [query_dao.py:31] SELECT * FROM persons WHERE id_user = %s
+09/19/2020 05:44:49 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 05:47:16 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fd1503f4ee0>
+09/19/2020 05:47:16 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fd14e362970>
+09/19/2020 05:47:16 PM: DEBUG [query_dao.py:18] SELECT * FROM persons ORDER BY id_user
+09/19/2020 05:47:16 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 05:47:20 PM: DEBUG [data_generator.py:50] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 05:49:21 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f71524bf130>
+09/19/2020 05:49:21 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f7150430940>
+09/19/2020 05:49:21 PM: DEBUG [query_dao.py:18] SELECT * FROM persons ORDER BY id_user
+09/19/2020 05:49:21 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 05:49:21 PM: DEBUG [data_generator.py:50] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 05:49:21 PM: DEBUG [data_generator.py:50] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 05:49:41 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7fa1d752cfa0>
+09/19/2020 05:49:41 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7fa1d549a9a0>
+09/19/2020 05:49:41 PM: DEBUG [query_dao.py:18] SELECT * FROM persons ORDER BY id_user
+09/19/2020 05:49:41 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 05:49:41 PM: DEBUG [data_generator.py:50] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 05:49:41 PM: DEBUG [data_generator.py:50] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/19/2020 05:52:50 PM: DEBUG [connect_database.py:30] successful connection: <pymysql.connections.Connection object at 0x7f03cbc9afa0>
+09/19/2020 05:52:50 PM: DEBUG [connect_database.py:44] the cursor was successfully opened: <pymysql.cursors.Cursor object at 0x7f03c9c0a940>
+09/19/2020 05:52:50 PM: DEBUG [query_dao.py:18] SELECT * FROM persons ORDER BY id_user
+09/19/2020 05:52:50 PM: DEBUG [connect_database.py:65] the connection and cursor objects have been closed
+09/19/2020 05:52:50 PM: DEBUG [data_generator.py:50] id_post: 1, id_user: 144, name: prueba, email: email, gender: gen, status: None, date: None
+09/19/2020 05:52:50 PM: DEBUG [data_generator.py:50] id_post: 2, id_user: 1918, name: JUlIjmuRiOca, email: rfkal99i@q4qsmjb3.es, gender: Female, status: Active, date: 2020-09-19
+09/20/2020 09:20:20 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 09:20:20 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 09:27:08 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 09:27:08 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 09:30:21 AM: DEBUG [person_dao.py:16] SELECT * FROM persons ORDER BY id_user
+09/20/2020 09:30:21 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
+09/20/2020 10:52:13 AM: DEBUG [post_dao.py:16] SELECT * FROM posts ORDER BY user_id
+09/20/2020 10:53:17 AM: DEBUG [connect_database.py:63] the connection and cursor objects have been closed
